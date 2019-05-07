@@ -1,2 +1,6 @@
+# Ada library information and object files
+*.ali
+*.o
+
 # MacOS Desktop Services Store
 *.DS_Store
