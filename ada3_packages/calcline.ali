@@ -1,0 +1,65 @@
+V "GNAT Lib v2018"
+M P W=b
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV SPARK_05
+
+U calcline%b		calcline.adb		1a692c13 NE OO SU KU
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W lines%s		lines.adb		lines.ali
+
+D ada.ads		20180524051735 76789da1 ada%s
+D a-except.ads		20180524051735 291912d5 ada.exceptions%s
+D a-flteio.ads		20180524051735 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20180524051734 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051735 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051736 491b781d ada.tags%s
+D a-textio.ads		20180524051736 881db35a ada.text_io%s
+D a-tiflio.ads		20180524051734 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20180524051736 0e9b276f ada.unchecked_conversion%s
+D calcline.adb		20190502194616 ca55b9bf calcline%b
+D interfac.ads		20180524051734 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051734 e53d8b8e interfaces.c_streams%s
+D lines.ads		20190502194610 b9ab6156 lines%s
+D system.ads		20180524051735 085b6ffb system%s
+D s-crtl.ads		20180524051734 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051736 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051736 078245e4 system.file_control_block%s
+D s-parame.ads		20180524051736 48ec542b system.parameters%s
+D s-secsta.ads		20180524051736 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051735 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051736 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051736 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051736 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051734 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051735 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051736 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 10|3r6 4r6 9r4 10r4 12r4 14r4 15r4 16r4 17r4 18r4 19r4 20r4
+X 3 a-flteio.ads
+20K13*Float_Text_IO[8|46] 10|4w10 16r8 19r8
+X 7 a-textio.ads
+49K13*Text_IO 471e16 10|3w10 9r8 10r8 12r8 14r8 15r8 17r8 18r8 20r8
+73I12*Field{integer}
+166U14*New_Line 10|10s16 14s16 17s16 20s16
+242U14*Put 10|9s16 12s16 15s16 18s16
+X 8 a-tiflio.ads
+68U14*Put 10|16s22[3|20] 19s22[3|20]
+71i7 Aft{7|73I12} 10|16r44[3|20] 19r41[3|20]
+72i7 Exp{7|73I12} 10|16r52[3|20] 19r49[3|20]
+X 10 calcline.adb
+6U11*CalcLine 6b11 21l5 21t13
+7r4 MyLine{13|4R8} 11m32 13r14 16r35 19r32
+X 13 lines.ads
+1K9*Lines 10|1w6 2r5 13|21e10
+4R8*Line 10|7r13 13|19e15
+6V12*Distance{float} 10|16s26
+7V12*Slope{float} 10|19s26
+8U13*SetLine 10|11s4
+9U13*PrintLine 10|13s4
+
