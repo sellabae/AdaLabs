@@ -1,6 +1,11 @@
 # Programming in Ada
 CECS524 Programming Languages
 
+## Files
+1. ```*.adb``` Ada code
+2. executables  
+To run the executable, type ```./``` and the executable file name on terminal.
+
 ## Labs
 #### [Lab0](ada/). Running Ada program
 installs ada compiler and runs an ada program.
