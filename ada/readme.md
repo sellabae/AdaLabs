@@ -5,6 +5,7 @@
 2. Compile an Ada program 'hello.adb', and Run.
 3. Compile a Fortran program 'hello.f', and Run.
 
+![screenshot](524_lab_ada_fortran_setup.png)
 
 ## To find out gcc version on my computer
 ```
