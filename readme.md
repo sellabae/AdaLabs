@@ -1,28 +1,27 @@
-# Programming Ada/Fortran on Mac
+# Programming in Ada
+CECS524 Programming Languages
 
-### Terminologies
+## Terminologies
 
-#### GCC
-GCC(the GNU Compiler Collection)
-[GCC](https://gcc.gnu.org/) supports C, C++, Objective-C, Fortran, Ada, Go
-**GNAT** is the GNU Ada compiler, which is part of GCC.
-**GFortran** is the GNU Fortran compiler.
+- GCC(the GNU Compiler Collection)  
+[GCC](https://gcc.gnu.org/) supports C, C++, Objective-C, Fortran, Ada, Go  
+**GNAT** is the GNU Ada compiler, which is part of GCC.  
+**GFortran** is the GNU Fortran compiler.  
 installing gcc.. [here](https://gcc.gnu.org/install/binaries.html)
 
-#### GNU
-GNU(GNU's Not Unix!)  
+- GNU(GNU's Not Unix!)  
 GNU is a free UNIX style operating system. GNU's design is Unix-like, but differs from Unix by being free software and containing no Unix code. The GNU project includes an operating system kernel, GNU Hurd
 
-
-#### POSIX
-POSIX(Portable Operating System Interface uniX)  
+- POSIX(Portable Operating System Interface uniX)  
 POSIX is an IEEE standard for Unix's API(Application Programming Interface). If an operating system follows POSIX, that means it's UNIX compatible. LINUX almost follows all POSIX standard, so we consider LINUX is an UNIX compatible OS.
 
+
+## Programming Ada/Fortran on Mac
 
 MinGW is actually POSIX compatibility layer for Windows, and Mac OS is a POSIX system.
 So.. this means.. what?
 
-To find out which gcc version I have on my mac
+To find out which gcc version I have on my computer
 ```
 $ gcc -v
 ```
