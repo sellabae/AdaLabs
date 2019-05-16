@@ -16,7 +16,10 @@ calculates the average of user input numbers using array.
 #### [Lab3](ada3_packages/). Packages  
 uses specification and body files.  
 calculates distance and slope of a line from two points.
-
+#### [Lab4](ada4_recursion/). Recursion  
+solves the Tower of Hanoi problem.
+#### [Lab5](#). Concurrency  
+...
 
 ## Setup
 [MacOS setup for Ada](ada/readme.md)
